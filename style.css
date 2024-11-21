@@ -10,6 +10,9 @@
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 a{
     text-decoration: none;
     color: #fff;
@@ -121,6 +124,10 @@ nav .links a.active{
     gap: 8px;
     cursor: pointer;
     transition: all .3s ease;
+}
+
+.about .left .info .buttons p{
+    display: none;
 }
 
 .about .left .info .buttons button.hire{

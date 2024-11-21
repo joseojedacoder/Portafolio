@@ -8,18 +8,19 @@
     <title>Portafolio junior</title>
 </head>
 <body>
+
     <nav>
         <div class="logo">
             <i class="fa-solid fa-code"></i>
         </div>
         <div class="links">
-            <a href="#" class="active">About</a>
-            <a href="#">Projects</a>
-            <a href="#">Contact</a>
+            <a href="#about" class="active">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
         </div>
     </nav>
 
-    <div class="about">
+    <div id="about" class="about">
         <div class="left">
             <h3>UX/UI Designer</h3>
             <div class="info">
@@ -29,7 +30,8 @@
                     <button class="hire">
                         Hire me <i class="fa-solid fa-plus"></i>
                     </button>
-                    <button class="email">
+                    <p id="email">jeod999@gmail.com</p>
+                    <button id="copyButton" class="email">
                         Copy email <i class="fa-regular fa-copy"></i>
                     </button>
                 </div>
@@ -43,7 +45,7 @@
         </div>
     </div>
 
-    <div class="works">
+    <div id="projects" class="works">
         <div class="left">
             <h3>
                 <i class="fa-solid fa-circle"></i> Recent Works
@@ -104,16 +106,18 @@
         </div>
     </div>
 
-    <footer>
-        <a href="#">Mi CV</a>
+    <footer id="contact">
+        <a href="documentos/CV_JoseOjeda.pdf" download="CV_JoseOjeda">Mi CV</a>
         <div class="socials">
-            <a href="https://www.linkedin.com/in/jose-ojeda-diaz-0625a1211/">Linkedin</a>
-            <a href="https://github.com/joseojedacoder">Github</a>
+            <a href="https://www.linkedin.com/in/jose-ojeda-diaz-0625a1211/" target="_blank">Linkedin</a>
+            <a href="https://github.com/joseojedacoder" target="_blank">Github</a>
         </div>
         <a href="#" class="online">
             <i class="fa-solid fa-circle"></i> Available for Job
         </a>
     </footer>
+
+    <script src="script.js"></script>
 
 </body>
 </html>
